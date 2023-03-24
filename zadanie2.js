@@ -19,8 +19,9 @@ document.write("<p>" + `Здравствуй Дедушка Мороз !` + "<br
 
 let text = document.querySelector('p');
 text.style.color = 'black';
-text.style.margin = '0 550px 0 550px';
 text.style.background = 'white';
 text.style.padding = '20px';
 text.style.fontSize = 'x-large';
 text.style.textAlign = 'center';
+text.style.display = 'flex';
+text.style.flex = 'wrap';
